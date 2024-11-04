@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 90px;
+    background-color: rgb(0, 255, 170);;
+    padding-top: 1%;
+}
+.search{
+    height: 21px;
+    width: 20px;
+}
+.content{
+    display:flex;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 15px;
+}
+.box{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+}
+.NewMovies{
+    display:flex;
+    padding-bottom: 2%;
+    margin-top: 5px;
+    margin: 10px;
+}
+h1{
+    font-weight: 50px;
+    position: relative;
+}
+#mp{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+#parent{
+    background-color: rgb(255, 255, 255);
+    overflow-x: scroll 5s;
+    overflow-y: hidden;
+    color: aqua;
+    background-color: black;
+}
+.box1{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/ganpath.jpg);
+    height: 200px;
+    width: 200px;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(14, 241, 165);
+    transition: all ease 1s;
+}
+h3{
+    font-weight: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+h3::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(42, 147, 110);
+    transition: all ease-out 700ms;
+}
+button{
+    float:left; /* Float the button to the right */
+    padding: 0px 0%;
+    font-size: 16px;
+    background-color: #0bf313;
+    color: #fff;
+    border-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    button:hover {
+        transform: scale(1.1);
+    }
+    .image-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  transition: transform 0.3s ease-in-out;
+}
+.image-container img:hover {
+        transform: scale(1.1);
+    }
+.image-container img {
+  max-width: 180px;
+  max-height: 200px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 16px;
+  background-color: aqua;
+  height: auto;
+  text-align: center;
+
+}
+[class^="box"] {
+        transition: transform 0.1s ease-in-out;
+    }
+
+    [class^="box"]:hover {
+        transform: scale(1.1);
+
+    }
+.box2{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/jawan.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box3{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/Dream-Girl.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box4{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/dream\ girl2.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box5{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/ye\ jawani.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box6{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/tejas.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box7{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/old.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box8{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/loki.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box9{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/tiger.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box10{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/nun.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box11{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/leo.png);
+    height: 200px;
+    width: 180px;
+}
+.box12{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/Lupin.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box13{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/kgf.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box14{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/The-Wasteland.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box15{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/trial.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box19{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/absolute.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box16{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/devil.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box17{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/flash.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box18{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/life.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box20{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/lift.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box21{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/omg.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box22{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/miss.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box23{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/fair.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box24{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/teefa.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box25{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/khushi.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box26{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/bro.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box27{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/virata.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box28{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/maam.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box29{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/aakri.jpg);
+    height: 200px;
+    width: 180px;
+}
+.box30{
+    border: 2px solid rgb(0, 114, 76);
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    transition-timing-function: all ease 5s;
+    content: url(assets/king.jpg);
+    height: 200px;
+    width: 180px;
+    color: aqua;
+}
+  h1{
+    color: #741717;
+    text-align: 
+  }
+
+  p {
+    color: #000000;
+  }
+  .copyright{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+  .booking-form {
+    display: none;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #78e50b;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
